@@ -1,0 +1,78 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#login_outer {
+	display: table; 
+	position: absolute; 
+	height: 60%; 
+	width: 99%;
+}
+
+#login_middle {
+	display: table-cell; 
+	/*vertical-align: middle;*/
+}
+
+#login_inner_logo {
+	background-image: url("images/jfbk_logo_login.png");
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 15%;
+	width: 600px;
+	height: 180px;
+	background-color: white;
+	background-repeat: no-repeat;
+	border-left-style: solid;
+	border-left-color: white;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-radius: 5px;
+    behavior: url(border-radius.htc);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#login_inner_layout {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 180px;
+	height: 180px;
+}
+
+#login_inner_form {
+	text-align: left;
+	width: 275px;	
+	margin-left: 100px; 
+	margin-top: 25px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	color: #333;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: small;
+	width: 99%;
+	text-align: center;
+}
+
+.login_heading {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.red {
+	color: #DC0600;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
